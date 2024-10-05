@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Pokemon";
+    src: url('pokemon/Pokemon Solid.ttf');
+}
+
+
+@font-face {
+  font-family: "Arimo", sans-serif;
+  src: url('Arimo/Arimo-VariableFont_wght.ttf'); 
+}
+
+@font-face {
+    font-family: "Kanit", sans-serif;
+    src: url('Kanit/Kanit-Regular.ttf'); 
+  }
+
+body{
+    background-color: rgb(114, 162, 214);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0em;
+    font-family: "Pokemon";
+    color: #ffcb05;
+    -webkit-text-stroke: 2px #3466af;
+}
+
+div{
+    text-align: center;
+}
+
+#raichuPack{
+
+    background-image: url(https://i.ebayimg.com/images/g/2KMAAOSwQz9ktbmB/s-l1200.jpg);
+    width: 370px;
+    height: 600px;
+    border: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 0.7em;
+    background-size: contain;
+    transform-origin: center;
+}
+
+#mewtwoPack{
+    background-image: url(mewtwobase2.jpg);
+    width: 370px;
+    height: 600px;
+    display: inline-block;
+    border: none;
+    background-size: contain;
+    transform-origin: center;
+    margin-right: auto;
+}
+
+#gyaradosPack{
+    background-image: url(https://images.pristineauction.com/210/2102713/main_1637077139-Pokemon-Base-Set-2-Booster-Pack-with-11-Cards-PristineAuction.com.jpg);
+    width: 370px;
+    height: 600px;
+    display: inline-block;
+    border: none;
+    background-size: contain;
+    transform-origin: center;
+    margin-right: auto;
+}
+
+#pidgeotPack{
+    background-image: url(pidgeotbase2.jpg);
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    border: none;
+    background-size: contain;
+    transform-origin: center;
+    margin-right: auto;
+}
+
+
+button:hover{
+    cursor: pointer;
+    animation-name: expand;
+    animation-timing-function: ease-out;
+    animation-duration: 2.5s;
+}
+
+
+
+.cardImage{
+    display: inline-block;
+    height: 200px;
+}
+
+.cardDiv{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-family: Kanit;
+    font-weight: 600;
+}
+
+.cardPrice{
+    color: #a1f0a2;
+}
+
+@keyframes expand{
+    to{transform: scale(1.1)};
+     
+}
