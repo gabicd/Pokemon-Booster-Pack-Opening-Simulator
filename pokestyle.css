@@ -92,6 +92,14 @@ button:hover{
     height: 200px;
 }
 
+.cardImage:hover{
+    animation-name: expand;
+    animation-timing-function: ease-out;
+    animation-duration: 2.5s;
+    background: white;
+    box-shadow: 0 0 50px white;
+}
+
 .cardDiv{
     display: inline-block;
     margin: 10px;
@@ -108,3 +116,4 @@ button:hover{
     to{transform: scale(1.1)};
      
 }
+
