@@ -30,22 +30,24 @@ div{
     text-align: center;
 }
 
+.openPackButton{
+    background: transparent;
+}
+
 #raichuPack{
 
-    background-image: url(https://i.ebayimg.com/images/g/2KMAAOSwQz9ktbmB/s-l1200.jpg);
+    background-image: url(raichupack.png);
     width: 370px;
     height: 600px;
     border: none;
     display: inline-block;
-    margin-left: auto;
-    margin-right: 10px;
     margin-top: 0.7em;
     background-size: contain;
     transform-origin: center;
 }
 
 #mewtwoPack{
-    background-image: url(mewtwobase2.jpg);
+    background-image: url(mewtwobase2.png);
     width: 370px;
     height: 600px;
     display: inline-block;
@@ -56,7 +58,7 @@ div{
 }
 
 #gyaradosPack{
-    background-image: url(https://images.pristineauction.com/210/2102713/main_1637077139-Pokemon-Base-Set-2-Booster-Pack-with-11-Cards-PristineAuction.com.jpg);
+    background-image: url(gyaradospack.png);
     width: 370px;
     height: 600px;
     display: inline-block;
@@ -67,8 +69,8 @@ div{
 }
 
 #pidgeotPack{
-    background-image: url(pidgeotbase2.jpg);
-    width: 300px;
+    background-image: url(pidgeotbase2.png);
+    width: 370px;
     height: 600px;
     display: inline-block;
     border: none;
