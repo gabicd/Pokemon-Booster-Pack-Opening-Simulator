@@ -1,8 +1,8 @@
 //client side JavaScript code
 document.addEventListener('DOMContentLoaded', () => {
-    const packButtons = ["raichuPack", "mewtwoPack", "gyaradosPack", "pidgeotPack"];    //use same function for different buttons
+    let packButtons = document.querySelectorAll(".openPackButton");    //use same function for different buttons
     packButtons.forEach(packId => {
-        document.getElementById(packId).addEventListener("click", () => {
+        packId.addEventListener("click", () => {
             fetch('/api/openPack')  //execute code
                 .then(response => {
                     if (!response.ok) {     //error treatment
