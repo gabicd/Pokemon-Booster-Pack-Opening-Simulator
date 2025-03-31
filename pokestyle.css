@@ -79,12 +79,13 @@ div{
     margin-right: auto;
 }
 
+button{
+    transition: 0.5s ease;
+}
 
 button:hover{
     cursor: pointer;
-    animation-name: expand;
-    animation-timing-function: ease-out;
-    animation-duration: 2.5s;
+    transform: scale(1.1)
 }
 
 
@@ -92,12 +93,12 @@ button:hover{
 .cardImage{
     display: inline-block;
     height: 200px;
+    transition: 0.3s ease;
 }
 
 .cardImage:hover{
-    animation-name: expand;
-    animation-timing-function: ease-out;
-    animation-duration: 2.5s;
+    transform: translateY(-5px);
+
     background: white;
     box-shadow: 0 0 50px white;
 }
@@ -114,8 +115,4 @@ button:hover{
     color: #a1f0a2;
 }
 
-@keyframes expand{
-    to{transform: scale(1.1)};
-     
-}
 
